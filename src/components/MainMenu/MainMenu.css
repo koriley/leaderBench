@@ -1,0 +1,13 @@
+.buttonGroup {
+
+    width: 100%;
+    .childrenButtons {
+        /* margin: auto; */
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: azure;
+
+        /* border: 1px solid red; */
+    }
+}
