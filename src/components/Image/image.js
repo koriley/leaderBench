@@ -1,6 +1,8 @@
 import './image.css';
+import Poppins from 'typeface-poppins';
+import Text from '../Text/Text'
 
-export default function imageFade({ imageProp }) {
+export default function imageFade({ imageProp, }) {
     return(
     <div className="imageParent">
         {/* <img src={imageProp} alt="resort" style={{ width: '100%' }} className='imageFade'></img> */}
@@ -9,7 +11,7 @@ export default function imageFade({ imageProp }) {
             
         }}></div> */}
         <img src={imageProp} className="imageFade"></img>
-        <div className="grad">dsfgsdgf</div>
+        <div className="grad"></div>
        
     </div>
     )}

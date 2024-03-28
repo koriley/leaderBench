@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import { useEffect, useState } from 'react';
 import './App.css';
-import MainMenu from './components/MainMenu/MainMenu';
+import './components/MainMenu/MainMenu.css';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
 import Home from './pages/home';
@@ -18,12 +18,12 @@ function App() {
   return (
     <div className="App">
       {toLoad}
-      <ButtonGroup variant="outlined" aria-label="Basic button group" className="buttonGroup" >
+      <ButtonGroup size='secondary' variant="outlined" aria-label="Basic button group" className="buttonGroup" >
         <div className="childrenButtons">
           <Button onClick={()=>setToLoad(<Home></Home>)}>Home</Button>
           <Button onClick={()=>setToLoad(<Map></Map>)}>Resort Map</Button>
           <Button onClick={()=>setToLoad(<Menu></Menu>)
-          }>Menu</Button>
+          }>Food</Button>
           <Button onClick={()=>setToLoad(<Account></Account>)}>Account</Button>
         </div>
       </ButtonGroup>

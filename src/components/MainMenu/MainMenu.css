@@ -7,7 +7,9 @@
         bottom: 0;
         width: 100%;
         background-color: azure;
-
+        button{
+            height:75px;
+        }
         /* border: 1px solid red; */
     }
 }

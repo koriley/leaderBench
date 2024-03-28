@@ -18,3 +18,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.homeParent{
+  position: relative;
+
+  .textChild{
+    border: 1px solid red; 
+    width: 100%;
+    height: 50vh;
+    position:absolute;
+    top:390px;
+    z-index:15;
+  }
+}

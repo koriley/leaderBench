@@ -1,18 +1,22 @@
+
 .imageParent {
     position: relative;
     background-color: blue;
     height:100vh;
     .imageFade {
-
         /* background-repeat: no-repeat;
     /* background-attachment: fixed; */
         /* background-position: 50%;  */
-        /* background-size: cover; */
+        /* background-size: ; */
+        image-rendering: optimizeSpeed;
         width: 100%;
         height: 100vh;
         position: absolute;
-        top: -300px;
+        top: -280px;
         left: 0;
+        opacity: 70%;
+        object-fit:cover;
+      
     }
     .grad{
         
@@ -20,7 +24,7 @@
         z-index: 5;
         height:50vh;
         top:20%;
-        background-image: linear-gradient(transparent, blue);
+        background-image: linear-gradient(transparent, blue, blue);
     }
 }
 
