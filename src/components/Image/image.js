@@ -1,6 +1,6 @@
 import './image.css';
-import Poppins from 'typeface-poppins';
-import Text from '../Text/Text'
+// import Poppins from 'typeface-poppins';
+
 
 export default function imageFade({ imageProp, }) {
     return(
@@ -10,7 +10,7 @@ export default function imageFade({ imageProp, }) {
             backgroundImage:  `linear-gradient(to bottom, transparent, blue), url(${imageProp})`,
             
         }}></div> */}
-        <img src={imageProp} className="imageFade"></img>
+        <img src={imageProp} className="imageFade" alt=""></img>
         <div className="grad"></div>
        
     </div>

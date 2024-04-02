@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import './components/MainMenu/MainMenu.css';
 import ButtonGroup from '@mui/material/ButtonGroup';
@@ -29,6 +29,6 @@ function App() {
       </ButtonGroup>
     </div>
   );
-}
+} 
 
 export default App;

@@ -7,7 +7,7 @@ import './MainMenu.css';
 
 
 
-export default function ButtonUsage() {
+export default function MainMenu() {
 
   let navigate = useNavigate();
 
