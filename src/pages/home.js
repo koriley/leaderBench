@@ -9,6 +9,7 @@ export default function Home() {
         <div className="homeParent">
             <MainImage imageProp={image}></MainImage>
             <div className="textChild" >
+                
                 <Text
                     title="Welcome To Atlanta"
                     body="Atlanta isn’t just another major metropolitan city, it’s a unique, diverse urban landscape made up of nearly 45 distinct neighborhoods. Read on to discover all of the fun that awaits you in ATL." />

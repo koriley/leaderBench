@@ -56,7 +56,7 @@ function App() {
           onClick={()=>setToLoad(<Map></Map>)}
         />
         <BottomNavigationAction
-          label="Manu"
+          label="Menu"
           value="menu"
           icon={<RestaurantMenuIcon />}
           onClick={()=>setToLoad(<Menu></Menu>)}
