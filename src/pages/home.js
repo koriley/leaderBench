@@ -6,9 +6,9 @@ import CTA from '../components/CTA/CTA';
 
 export default function Home() {
     return (
-        <div className="homeParent">
+        <div className="account">
             <MainImage imageProp={image}></MainImage>
-            <div className="textChild" >
+            <div className="container" style={{'margin-bottom':'100px'}} >
                 
                 <Text
                     title="Welcome To Atlanta"

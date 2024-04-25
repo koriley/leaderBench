@@ -14,7 +14,7 @@ export default function FoodMenuItems({title, price, image}) {
     
       <Card sx={{ display: 'flex', margin: '10px 0' }}>
         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-          <CardContent sx={{ flex: '1 0 auto' }}>
+          <CardContent sx={{ flex: '1 0 auto', 'text-align': 'left' }}>
             <Typography component="div" variant="h5">
               {title}
             </Typography>
